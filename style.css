@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@600&family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Radio+Canada:wght@600&family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Radio+Canada:wght@600&family=Roboto&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: white;
+    /* width: 20vw; */
+    font-family: 'Radio Canada', sans-serif;
+    height: 100vh;
+    transition: transform 0.2s ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 22px;
+    padding: 33px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.881);
+    /* color: rgb(0, 216, 255); */
+}
+.sidebar nav li a:hover{
+    color: rgba(128, 128, 128, 0.526);
+    /* color: rgba(253, 243, 230, 0.71); */
+}
+.main{
+    background-color: oldlace;
+    width: 145vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color: white; */
+    height: 80vh;
+    width: 68vw;
+    margin: 66px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Comfortaa', cursive;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 42px;
+}
+
+.name{
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about{
+    font-size: 24px;
+}
+
+.moreabout{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+
+.buttons{
+    margin: 28px;
+}
+
+.btn {
+    padding: 8px;
+    margin: 6px;
+    border-radius: 22px;
+    /* background-color: linear-gradient(to right,#1345e6 0%,#ed239f 51%,#1345e6 100%); */
+    cursor: pointer;
+    color: oldlace;
+    background-color: rgb(0, 216, 255);
+    border: 1px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.btn-sm {
+    font-size: 14px;
+}
+.btn:hover {
+    /* color: linear-gradient(to right,#1345e6 0%,#ed239f 51%,#1345e6 100%); */
+    background-color: oldlace;
+    color: rgb(0, 216, 255);
+}
+.devPic img{
+    height: 80vh;
+}
+
+.contactform{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 140px;
+    padding-left: 24px;
+    margin: 0 60px;
+}
+.contactform h2{
+    font-family: 'Comfortaa', cursive;
+    padding: 14px;
+    /* text-align: center; */
+}
+.contactform form div{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px;
+    padding: 3px;
+} 
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 2px;
+}
+
+#form-check{
+    flex-direction: row;
+    
+}
+#form-check input{
+    width: 20px;
+    margin: 4px;
+}
+
+.blogItem {
+    margin: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+.blogContainer{
+    margin: 0 50px;
+}
+.blogContainer h1{
+   margin: 22px;
+   font-family: 'Comfortaa', cursive;
+}
+.blogItem p{
+    font-family: 'Roboto', sans-serif;
+}
+.intro{
+    margin: 10px 20px;
+}
+.intro h2{
+    font-family: 'Comfortaa', cursive;
+    margin: 12px;
+}
+.intro h2 p{
+    /* font-family: 'Comfortaa', cursive; */
+    margin: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.skillContainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-weight: 900;
+}
+.skill{
+    width: 298px;
+    height: 7px;
+    background-color: red;
+    border: 2px solid black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hundred{
+    width: 265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 150px;
+    background-color: aqua;
+}
+.t5{
+    width: 85px;
+    background-color: yellow;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 6px;
+    left: 10px;
+}
+.cross{
+    margin-left: 204px;
+    margin-top: 6px;
+}
+
+@media (max-width: 1615px) {
+
+}
+
+.services{
+    margin: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+.services p{
+    margin: 20px;
+    font-size: larger;
+}
